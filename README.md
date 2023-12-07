@@ -14,3 +14,12 @@ Once you've done that, you can choose to:
 
 1. Show the public key
 2. Sign a message
+name = "namada-trusted-setup-claimer"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "bip39",
+ "ed25519-compact",
+ "hex",
+ "inquire",
+ "zeroize",
